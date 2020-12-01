@@ -23,7 +23,7 @@ msRestAzure.loginWithAppServiceMSI({resource: 'https://vault.azure.net'}).then( 
     // Deprecated Libraries
     const keyVaultClient = new KeyVault.KeyVaultClient(credentials);
 
-    var vaultUri = "https://" + "<YourVaultName>" + ".vault.azure.net/";
+    var vaultUri = "https://GabeTestKeyVault.vault.azure.net/";
     
     // Deprecated Libraries
     // We're setting the Secret value here and retrieving the secret value
